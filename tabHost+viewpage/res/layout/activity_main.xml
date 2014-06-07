@@ -1,0 +1,60 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" >
+
+        <TabWidget android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <FrameLayout android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/MainTab_ViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/MainTab_TabGroup"
+            android:background="@drawable/black_area_bg" />
+
+        <RadioGroup android:id="@id/MainTab_TabGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/black"
+            android:checkedButton="@+id/MainTab_HomePage"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton android:id="@id/MainTab_HomePage"
+                style="@style/Home_Tab_Style"
+                android:drawableTop="@drawable/tab_home_image"
+                android:text="@string/MainTabTile_First" />
+
+            <RadioButton android:id="@+id/MainTab_Publish"
+                style="@style/Home_Tab_Style"
+                android:drawableTop="@drawable/tab_publish_image"
+                android:text="@string/MainTabTile_Second" />
+
+            <RadioButton android:id="@+id/MainTab_AddressBook"
+                style="@style/Home_Tab_Style"
+                android:drawableTop="@drawable/tab_addressbook_image"
+                android:text="@string/MainTabTile_Thirdly" />
+
+            <RadioButton android:id="@+id/MainTab_Individual"
+                style="@style/Home_Tab_Style"
+                android:drawableTop="@drawable/tab_individual_image"
+                android:text="@string/MainTabTile_Fourthly" />
+			
+        </RadioGroup>
+        
+    </RelativeLayout>
+
+</TabHost>

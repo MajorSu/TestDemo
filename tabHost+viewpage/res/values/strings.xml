@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tabHost+viewpage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+
+    <!-- 首页Tab -->
+    <string name="MainTabTile_First">第一</string>
+    <string name="MainTabTile_Second">第二</string>
+    <string name="MainTabTile_Thirdly">第三</string>
+    <string name="MainTabTile_Fourthly">第四</string>
+    
+    <!-- GridView -->
+    <string name="item_title">item1</string>
+</resources>

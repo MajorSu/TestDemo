@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common -->
+    
+    <!-- 灰色主调 -->
+    <color name="grey11">#1C1C1C</color>
+    <color name="grey21">#363636</color>
+    <color name="grey31">#4F4F4F</color>
+    <color name="grey41">#696969</color>
+    <color name="grey51">#828282</color>
+    <color name="grey61">#9C9C9C</color>
+    <color name="grey71">#B5B5B5</color>
+    <color name="gray81">#CFCFCF</color>
+    <color name="gray91">#E8E8E8</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    
+    <!-- 黑白 -->
+    <color name="Black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- 绿色调 -->
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="PaleGreen">#98FB98</color>
+    <color name="SpringGreen1">#00FF7F</color>
+    <color name="SpringGreen2">#00EE76</color>
+    <color name="SpringGreen3">#00CD66</color>
+    <color name="SpringGreen4">#008B45</color>
+
+    <!-- 背景色 -->
+    <color name="background_light">#ffffffff</color>
+
+    <!-- 半透明 -->
+    <color name="translucence">#e0000000</color>
+    <!-- 橙色 -->
+    <color name="orange">#fff97d03</color>
+    <!-- 宝蓝色调 -->
+    <color name="RoyalBlue1">#4876FF</color>
+    <color name="RoyalBlue2">#436EEE</color>
+    <color name="RoyalBlue3">#3A5FCD</color>
+    <color name="RoyalBlue4">#27408B</color>
+    
+    <!-- 首面按键背景色块 -->
+    <drawable name="Home_CarSource_Bg_Color">#f88039</drawable>
+    <drawable name="Home_GoodsSources_Bg_Color">#ff647b</drawable>
+    <drawable name="Home_PICC_Bg_Color">#009998</drawable>
+    <drawable name="Home_Credit_Bg_Color">#00cead</drawable>
+    <drawable name="Home_Line_Bg_Color">#ed398b</drawable>
+    <drawable name="Home_TransportPrices_Bg_Color">#00b78c</drawable>
+    <drawable name="Home_FineCar_Bg_Color">#42b644</drawable>
+    <drawable name="Home_Assistant_Bg_Color">#1f9edf</drawable>
+    <drawable name="Home_HotSpot_Bg_Color">#00cb7c</drawable>
+    
+    <!-- 背景色 -->
+    <color name="Background">#f5f5f5</color>
+	
+    <!-- 圆角背景点击时的颜色 -->
+    <color name="Angle_Pressed_Color">#9ee2bf</color>
+
+    <!-- GridView  -->
+    <color name="Item_TextView_Color">#dbdbdb</color>
+    
+    
+</resources>
